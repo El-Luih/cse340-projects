@@ -236,7 +236,7 @@ VALUES (
         5
     );
 -- 4. Fourth statement.
-UPDATE public.account
+UPDATE public.inventory
 SET inv_description = REPLACE(
         inv_description,
         'the small interiors',
