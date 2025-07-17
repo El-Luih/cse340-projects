@@ -19,7 +19,7 @@ WHERE account_id = 1;
 DELETE FROM public.account
 WHERE account_id = 1;
 -- 4. Fourth statement.
-UPDATE public.account
+UPDATE public.inventory
 SET inv_description = REPLACE(
         inv_description,
         'the small interiors',
